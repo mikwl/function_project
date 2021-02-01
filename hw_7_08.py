@@ -5,18 +5,18 @@
 # Написать программу в виде трех функций.
 
 def sr_g(args):
-    summary = 1
+    total = 1
     n = len(args)
     for i in args:
-        summary *= i
-    return pow(summary, 1/n)
+        total *= i
+    return pow(total, 1/n)
 
 def sr_a(args):
-    summary = 0
+    total = 0
     n = len(args)
     for i in args:
-        summary += i
-    return summary / n
+        total += i
+    return total / n
 
 def sr_choice(*args, mean_type):
     if mean_type == 'a':
