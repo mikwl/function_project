@@ -11,4 +11,4 @@ def my_func(*args):
         last = str(last)
         return summary, last
 
-print(my_func(4, 5, 7, 8, 0, 1, 4), ' ', a)
+print(my_func(4, 5, 7, 8, 0, 1, 4), ' ')
